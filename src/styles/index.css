@@ -9,15 +9,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.background-photo {
+    background-image: url(/workspaces/Jonas_Semaforo/src/img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+.btn {
+    display: block;
+}
+
+.btn-purple {
+    background-color: purple;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: rgb(99, 16, 99) !important;
+    color: white !important;
+    opacity: 1 !important;
+}
+
 .traffic-light {
     background-color: black;
     padding: 10px;
     display: inline-block;
-    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
 }
 
 
 .light {
+    margin: 5px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -35,6 +60,11 @@
 .green {
     background-color: green;
 }
-.glow {
-    box-shadow: 0px 0px 9px 4px #747DE8;
+
+.purple {
+    background-color: purple;
 }
+.glow {
+    box-shadow: 0px 0px 9px 4px #eef3c6;
+}
+
